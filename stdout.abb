@@ -1,0 +1,39 @@
+[  +23 ms] executing: [D:\src\flutter\] git -c log.showSignature=false log -n 1 --pretty=format:%H
+[  +69 ms] Exit code 0 from: git -c log.showSignature=false log -n 1 --pretty=format:%H
+[        ] 0b8abb4724aa590dd0f429683339b1e045a1594d
+[        ] executing: [D:\src\flutter\] git describe --match v*.*.* --first-parent --long --tags
+[  +46 ms] Exit code 0 from: git describe --match v*.*.* --first-parent --long --tags
+[        ] v1.12.13+hotfix.8-0-g0b8abb472
+[   +5 ms] executing: [D:\src\flutter\] git rev-parse --abbrev-ref --symbolic @{u}
+[  +45 ms] Exit code 0 from: git rev-parse --abbrev-ref --symbolic @{u}
+[        ] origin/stable
+[        ] executing: [D:\src\flutter\] git ls-remote --get-url origin
+[  +44 ms] Exit code 0 from: git ls-remote --get-url origin
+[        ] https://github.com/flutter/flutter.git
+[  +81 ms] executing: [D:\src\flutter\] git rev-parse --abbrev-ref HEAD
+[  +46 ms] Exit code 0 from: git rev-parse --abbrev-ref HEAD
+[        ] stable
+[  +62 ms] Artifact Instance of 'AndroidMavenArtifacts' is not required, skipping update.
+[   +4 ms] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[   +2 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[ +238 ms] Generating C:\Users\shipag\AndroidStudioProjects\flutter_app\android\app\src\main\java\io\flutter\plugins\GeneratedPluginRegistrant.java
+[  +58 ms] Running Gradle task 'bundleRelease'...
+[   +1 ms] gradle.properties already sets `android.enableR8`
+[   +3 ms] Using gradle from C:\Users\shipag\AndroidStudioProjects\flutter_app\android\gradlew.bat.
+[   +7 ms] executing: D:\Program Files\Android\Android Studio\jre\bin\java -version
+[  +84 ms] Exit code 0 from: D:\Program Files\Android\Android Studio\jre\bin\java -version
+[        ] openjdk version "1.8.0_212-release"
+           OpenJDK Runtime Environment (build 1.8.0_212-release-1586-b04)
+           OpenJDK 64-Bit Server VM (build 25.212-b04, mixed mode)
+[   +3 ms] executing: [C:\Users\shipag\AndroidStudioProjects\flutter_app\android\] C:\Users\shipag\AndroidStudioProjects\flutter_app\android\gradlew.bat -Pverbose=true -Ptarget=lib\main.dart -Ptrack-widget-creation=false -Pshrink=true -Ptarget-platform=android-arm,android-arm64,android-x64 bundleRelease
+[ +210 ms] Downloading https://services.gradle.org/distributions/gradle-5.6.2-all.zip
+[  +15 ms] Running Gradle task 'bundleRelease'... (completed in 0,8s)
+[   +3 ms] "flutter appbundle" took 1 213ms.
